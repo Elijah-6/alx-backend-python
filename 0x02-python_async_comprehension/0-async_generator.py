@@ -3,16 +3,22 @@
 
 The coroutine will loop 10 times,
 each time asynchronously wait 1 second,
-then yield a random number between 0 and 10. Use the random module. 
+then yield a random number between
+0 and 10. Use the random module.
 """
 import random
 import asyncio
+
+
 from typing import AsyncGenerator
-async def async_generator() -> AsyncGenerator[float,None]:
+
+
+async def async_generator() -> AsyncGenerator[float, None]:
     """
     An asynchronous generator that yields random numbers.
 
-    This coroutine will asynchronously generate 10 random numbers between 0 and 10,
+    This coroutine will asynchronously generate 10 random numbers
+    between 0 and 10,
     yielding one number every second.
 
     Yields:
