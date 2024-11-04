@@ -14,7 +14,7 @@ This repository contains a series of Python scripts and modules designed to demo
 
 The repository is structured as follows:
 
-```
+
 .
 ├── [client.py](client.py)
 ├── [fixtures.py](fixtures.py)
@@ -22,7 +22,7 @@ The repository is structured as follows:
 ├── [test_utils.py](test_utils.py)
 ├── [utils.py](utils.py)
 └── [README.md](README.md)
-```
+
 
 ## Modules
 
